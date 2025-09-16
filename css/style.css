@@ -119,14 +119,14 @@ header {
   width: 280px;
   display: flex;
   position: relative;
-  margin-right: -150px;
+  margin-right: -90px;
 }
 
 .header-icons {
   display: flex;
   align-items: center;
   gap: 0;
-  margin-right: -90px;
+  margin-right: -80px;
 }
 
 .search-bar {
@@ -159,8 +159,8 @@ header {
 }
 
 .search-lense {
-  margin: 0;
-  width: 25px;
+  margin: 15px;
+  width: 35px;
   position: relative;
   filter: var(--white-filter);
 }
@@ -175,11 +175,11 @@ header {
 }
 
 .login-icon {
-  margin: 8px;
+  margin: 10px;
 }
 
 .black-login {
-  width: 25px;
+  width: 30px;
   filter: var(--white-filter);
 }
 
@@ -193,8 +193,9 @@ header {
 }
 
 .black-basket {
-  width: 25px;
+  width: 35px;
   filter: var(--white-filter);
+  margin: 10px;
 }
 
 .black-basket:hover {
@@ -278,7 +279,7 @@ footer {
  font-size: 2rem;
  margin-bottom: 2.5rem;
  font-weight: 600;
- color: #2c2c2c;
+  color: var(--white-color);
  letter-spacing: 1.5px;
  padding: 1rem;
  background-color: #B68B7E;
@@ -321,14 +322,14 @@ footer {
  font-size: 1.3rem;
  font-weight: 600;
  margin-bottom: 1rem;
- color: #2c2c2c;
+ color: var(--white-color);
 }
 
 
 .text-box p{
  font-size: 1rem;
  margin-bottom: 1.5rem;
- color: #2c2c2c;
+ color: var(--white-color);
 }
 
 
@@ -372,5 +373,12 @@ align-self: flex-start;
 
 
 .btn:hover{
- background-color: #5e1f1f;
+ background-color: var(--white-color);
+ color: var(--pink-color);
 }
+
+
+body {
+  background-color: var(--white-color);
+}
+
