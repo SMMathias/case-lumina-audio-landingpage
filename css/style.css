@@ -111,7 +111,7 @@ header {
 .menu-lines-icon {
   filter: var(--white-filter);
   margin: 20px;
-  width: 60px;
+  width: 40px;
   margin-left: -70px;
 }
 
@@ -125,8 +125,7 @@ header {
 .header-icons {
   display: flex;
   align-items: center;
-  position: relative;
-  flex-direction: row;
+  gap: 0;
   margin-right: -90px;
 }
 
@@ -160,8 +159,8 @@ header {
 }
 
 .search-lense {
-  margin: 20px;
-  width: 50px;
+  margin: 0;
+  width: 25px;
   position: relative;
   filter: var(--white-filter);
 }
@@ -176,11 +175,11 @@ header {
 }
 
 .login-icon {
-  margin: 20px;
+  margin: 8px;
 }
 
 .black-login {
-  width: 50px;
+  width: 25px;
   filter: var(--white-filter);
 }
 
@@ -190,11 +189,11 @@ header {
 }
 
 .checkout-icon {
-  margin: 20px;
+  margin: 8px;
 }
 
 .black-basket {
-  width: 70px;
+  width: 25px;
   filter: var(--white-filter);
 }
 
