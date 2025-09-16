@@ -114,7 +114,7 @@ body {
 }
 
 .menu-lines-icon {
-  filter: var(--white-filter);
+  color: #2c2c2c;
   margin: 20px;
   width: 40px;
   margin-left: -70px;
@@ -167,7 +167,7 @@ body {
   margin: 0;
   width: 25px;
   position: relative;
-  filter: var(--white-filter);
+  color: #2c2c2c;
 }
 
 #search-bar-check:checked ~ #search-bar-input {
@@ -185,7 +185,7 @@ body {
 
 .black-login {
   width: 25px;
-  filter: var(--white-filter);
+  color: #2c2c2c;
 }
 
 .black-login:hover {
@@ -199,7 +199,7 @@ body {
 
 .black-basket {
   width: 25px;
-  filter: var(--white-filter);
+  color: #2c2c2c;
 }
 
 .black-basket:hover {
@@ -464,11 +464,15 @@ align-self: flex-start;
 .tp-rate {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 70px;
 }
 
 .and {
+  margin: 0;
   letter-spacing: 2px;
-  font-size: var(--font-size-base);
+  font-weight: var(--font-size-base);
   font-family: "Anek Odia";
-  
+  font-size: 24px;
 }
