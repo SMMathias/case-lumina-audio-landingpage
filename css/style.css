@@ -167,7 +167,7 @@ body {
 
 .search-lense {
   margin: 15px;
-  width: 35px;
+  width: 40px;
   position: relative;
   filter: var(--black-filter);
 }
@@ -187,11 +187,10 @@ body {
 }
 
 .black-login {
-  width: 35px;
-  filter: var(--black-filter);
+  width: 40px;
 }
 
-.black-login:hover {
+.login-icon:hover {
   filter: var(--red-filter);
   cursor: pointer;
 }
