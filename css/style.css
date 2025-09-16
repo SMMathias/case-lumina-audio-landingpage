@@ -407,3 +407,17 @@ align-self: flex-start;
   color: #2c2c2c;
 }
 
+
+/* Trustpilot sektionen*/
+.tp-a article {
+  display: flex;
+  padding: 20px;
+  margin-top: 250px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.tp-a article > div {
+  flex: 1;
+}
