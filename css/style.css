@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+font-family: 'Anek Odia', sans-serif;
+background-color: #F3ECE3;
+color: #7A1E2E;
+line-height: 1.6;
+}
+
 :root {
   /* Farver */
   --pink-color:#EDC6BE;
@@ -43,8 +50,112 @@
     left: 20%;
 }
 
-
 .foregrund img {
   max-width: 300px;
   height: auto;
 }
+
+
+/* Sektioner efter Hero*/
+
+/* Styling af banner */
+.section{
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.section > h1{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+  color: #7A1E2E;
+  letter-spacing: 1.5px;
+  padding: 1rem;
+  background-color: #EDC6BE;
+}
+
+
+/* Rækker med billeder + tekst*/
+.content-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.colors .content-row{
+  flex-direction: row-reverse;
+}
+
+
+/*Tekstboks*/
+.text-box{
+  flex: 1;
+  background-color: #EDC6BE;
+  padding: 4rem;
+  border-radius: 12px;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  margin: 4rem;
+}
+
+.text-box h2{
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #7A1E2E;
+}
+
+.text-box p{
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #7A1E2E;
+}
+
+
+/* Billeder */
+.product-image,
+.slide{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  min-height: 240px;
+  border-radius: 6px;
+  margin: 4rem;
+}
+
+.product-image img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 4rem;
+}
+
+
+/* Knapper*/
+.btn{
+  background-color: #7A1E2E;
+color: #F3ECE3;
+border: none;
+padding: 0.9rem 1.8rem;
+border-radius: 8px;
+cursor: pointer;
+font-weight: 600;
+align-self: flex-start;
+}
+
+.btn:hover{
+  background-color: #5e1f1f;
+}
+
+
+
+
+
+
