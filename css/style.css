@@ -420,4 +420,13 @@ align-self: flex-start;
 
 .tp-a article > div {
   flex: 1;
+  margin-left: 50px;
+}
+
+.lumina-1 {
+  font-size: 20px;
+  font-weight: var(--font-weight-semi-bold);
+  font-family: "Anek Odia";
+  text-align: center;
+  color: #2c2c2c;
 }
