@@ -54,7 +54,7 @@ header {
 
 
 .navbar ul {
-  background-color: var(--white-color);
+  background-color: var(--red-color);
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -71,14 +71,14 @@ header {
   font-family: var(--font-family);
   font-size: var(--font-size-xxl);
   cursor: pointer;
-  color: var(--pink-color);
+  color: var(--white-color);
   font-weight: var(--font-weight-medium);
   margin-left: 50px;
 }
 .navbar ul li:hover {
-  background-color: var(--red-color);
+  background-color: var(--white-color);
   width: 100%;
-  color: var(--white-color);
+  color: var(--pink-color);
 }
 
 .navbar {
@@ -394,7 +394,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #F3ECE3;
   padding: 20px 40px;
 }
 
@@ -410,12 +409,13 @@ body {
   width: 30px;
   height: auto;
   margin-bottom: 10px;
+  filter: var(--red-filter);
 }
 
 .ikon p{
   font-size: 16px;
   font-weight: 600;
-  color: #2c2c2c;
+  color:var(--red-color);
 }
 
 
@@ -437,6 +437,7 @@ body {
   font-size: 50px;
   font-family: "Anek Odia";
   letter-spacing: 8px;
+  color: var(--red-color);
 }
 
 .tp-a article > div {
@@ -450,7 +451,7 @@ body {
   font-weight: var(--font-weight-semi-bold);
   font-family: "Anek Odia";
   text-align: center;
-  color: #2c2c2c;
+  color: var(--red-color);
 }
 
 .tp {
