@@ -18,6 +18,8 @@
 
   --red-filter: invert(16%) sepia(45%) saturate(2634%) hue-rotate(323deg) brightness(93%) contrast(97%);
 
+  --black-filter: invert(8%) sepia(0%) saturate(1011%) hue-rotate(243deg) brightness(102%) contrast(78%);
+
   --font-family:'Anek Odia', "Inter", Sans-serif;
   --font-size-small:13px;
   --font-size-base:16px;
@@ -58,7 +60,7 @@ body {
 }
 
 .navbar ul {
-  background-color: var(--white-color);
+  background-color: var(--red-color);
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -76,12 +78,12 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size-xxl);
   cursor: pointer;
-  color: var(--pink-color);
+  color: var(--white-color);
   font-weight: var(--font-weight-medium);
   margin-left: 50px;
 }
 .navbar ul li:hover {
-  background-color: var(--red-color);
+  background-color: #5e1f1f;
   width: 100%;
   color: var(--white-color);
 }
@@ -114,7 +116,7 @@ body {
 }
 
 .menu-lines-icon {
-  color: #2c2c2c;
+  filter: var(--black-filter);
   margin: 20px;
   width: 40px;
   margin-left: -70px;
@@ -164,10 +166,10 @@ body {
 }
 
 .search-lense {
-  margin: 0;
-  width: 25px;
+  margin: 15px;
+  width: 40px;
   position: relative;
-  color: #2c2c2c;
+  filter: var(--black-filter);
 }
 
 #search-bar-check:checked ~ #search-bar-input {
@@ -180,26 +182,26 @@ body {
 }
 
 .login-icon {
-  margin: 8px;
+  margin: 15px;
+  filter: var(--black-filter);
 }
 
 .black-login {
-  width: 25px;
-  color: #2c2c2c;
+  width: 40px;
 }
 
-.black-login:hover {
+.login-icon:hover {
   filter: var(--red-filter);
   cursor: pointer;
 }
 
 .checkout-icon {
-  margin: 8px;
+  margin: 15px;
 }
 
 .black-basket {
-  width: 25px;
-  color: #2c2c2c;
+  width: 35px;
+  filter: var(--black-filter);
 }
 
 .black-basket:hover {
@@ -462,17 +464,20 @@ align-self: flex-start;
 }
 
 .tp-rate {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-auto-flow: column;
   align-items: center;
-  gap: 16px;
-  margin: 70px;
+  justify-content: center;
+  gap: 24px;
+  margin: 70px 0;
 }
 
 .and {
   margin: 0;
+  text-align: center;
   letter-spacing: 2px;
   font-weight: var(--font-size-base);
   font-family: "Anek Odia";
   font-size: 24px;
+  line-height: 1.6;
 }
