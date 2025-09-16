@@ -54,7 +54,7 @@ header {
 }
 
 body {
-  background-color: #f3f3f3;
+  background-color: #F3ECE3;
 }
 
 .navbar ul {
@@ -435,6 +435,7 @@ align-self: flex-start;
 .tp-a article > div {
   flex: 1;
   margin-left: 50px;
+  display: flex;
 }
 
 .lumina-1 {
@@ -446,8 +447,28 @@ align-self: flex-start;
 }
 
 .tp {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-size: 32px;
   font-weight: var(--font-size-base);
   font-family: "Inter";
   margin-top: 45px;
+  background-color: #FAF6F4;
+  border-radius: 24px;
+  padding: 24px;
+  min-height: 291px;
+}
+
+.tp-rate {
+  display: flex;
+  justify-content: center;
+}
+
+.and {
+  letter-spacing: 2px;
+  font-size: var(--font-size-base);
+  font-family: "Anek Odia";
+  
 }
