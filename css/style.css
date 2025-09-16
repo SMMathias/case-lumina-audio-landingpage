@@ -3,16 +3,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.foregrund{
-    position: absolute;
-    z-index: 10;
-    top: 30%;
-    left: 20%;
-}
-
-
-.foregrund img {
-  max-width: 300px;
-  height: auto;
-}
