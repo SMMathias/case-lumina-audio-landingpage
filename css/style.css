@@ -386,3 +386,103 @@ body {
   font-family: var(--font-family);
 }
 
+
+
+/* Ikoner */
+
+.ikon-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F3ECE3;
+  padding: 20px 40px;
+}
+
+.ikon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  margin: 10px;
+}
+
+.ikon img{
+  width: 30px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.ikon p{
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+
+
+/* Trustpilot sektionen*/
+.tp-a article {
+  display: flex;
+  padding: 20px;
+  margin-top: 50px;
+  margin-right: 100px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.tph2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 260px;
+  font-size: 50px;
+  font-family: "Anek Odia";
+  letter-spacing: 8px;
+}
+
+.tp-a article > div {
+  flex: 1;
+  margin-left: 50px;
+  display: flex;
+}
+
+.lumina-1 {
+  font-size: 30px;
+  font-weight: var(--font-weight-semi-bold);
+  font-family: "Anek Odia";
+  text-align: center;
+  color: #2c2c2c;
+}
+
+.tp {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: var(--font-size-base);
+  font-family: "Inter";
+  margin-top: 45px;
+  background-color: #FAF6F4;
+  border-radius: 24px;
+  padding: 24px;
+  min-height: 291px;
+}
+
+.tp-rate {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 70px 0;
+}
+
+.and {
+  margin: 0;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: var(--font-size-base);
+  font-family: "Anek Odia";
+  font-size: 24px;
+  line-height: 1.6;
+}
