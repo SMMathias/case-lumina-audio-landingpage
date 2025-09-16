@@ -274,14 +274,15 @@ footer {
 
 
 .section > h1{
- text-align: center;
+ margin-top: 200px;
+  text-align: center;
  font-size: 2rem;
  margin-bottom: 2.5rem;
  font-weight: 600;
- color: #7A1E2E;
+ color: #2c2c2c;
  letter-spacing: 1.5px;
  padding: 1rem;
- background-color: #EDC6BE;
+ background-color: #B68B7E;
 }
 
 
@@ -306,7 +307,7 @@ footer {
 /*Tekstboks*/
 .text-box{
  flex: 1;
- background-color: #EDC6BE;
+ background-color: #B68B7E;
  padding: 4rem;
  border-radius: 12px;
  max-width: 420px;
@@ -321,14 +322,14 @@ footer {
  font-size: 1.3rem;
  font-weight: 600;
  margin-bottom: 1rem;
- color: #7A1E2E;
+ color: #2c2c2c;
 }
 
 
 .text-box p{
  font-size: 1rem;
  margin-bottom: 1.5rem;
- color: #7A1E2E;
+ color: #2c2c2c;
 }
 
 
