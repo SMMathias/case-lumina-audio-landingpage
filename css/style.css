@@ -13,18 +13,17 @@ line-height: 1.6;
 
 :root {
   /* Farver */
-  --pink-color:#EDC6BE;
-  --whtie-color:#F3ECE3;
+  --pink-color:#B68B7E;
+  --white-color:#F3ECE3;
   --red-color:#7A1E2E;
 
   /* Hover filter */
-  --pink-filter:sepia(0.25) saturate(1.6) hue-rotate(330deg) brightness(1.1) contrast(0.9);
+  --pink-filter: invert(61%) sepia(18%) saturate(551%) hue-rotate(327deg) brightness(92%) contrast(91%);
 
-  --white-filter:sepia(0.2) saturate(1.2) brightness(1.05) contrast(0.9);
+  --white-filter: invert(95%) sepia(11%) saturate(434%) hue-rotate(317deg) brightness(103%) contrast(91%);
 
-  --red-filter: grayscale(100%) sepia(60%) hue-rotate(-25deg) saturate(200%) brightness(80%) contrast(90%);
+  --red-filter: invert(16%) sepia(45%) saturate(2634%) hue-rotate(323deg) brightness(93%) contrast(97%);
 
-  /* Typografi */
   --font-family:'Anek Odia', Sans-serif;
   --font-size-small:13px;
   --font-size-base:16px;
@@ -43,11 +42,21 @@ line-height: 1.6;
   --font-weight-bold:700;
 }
 
-.foregrund{
-    position: absolute;
-    z-index: 10;
-    top: 30%;
-    left: 20%;
+
+/* start på header og footer */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background:var(--pink-color);
+  box-shadow:0 2px 10px rgba(0, 0, 0, 0.1);
+  padding:15px 7%;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  z-index: 1000;
 }
 
 .foregrund img {
