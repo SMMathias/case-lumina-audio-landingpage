@@ -18,7 +18,7 @@
 
   --red-filter: invert(16%) sepia(45%) saturate(2634%) hue-rotate(323deg) brightness(93%) contrast(97%);
 
-  --font-family:'Anek Odia', Sans-serif;
+  --font-family:'Anek Odia', "Inter", Sans-serif;
   --font-size-small:13px;
   --font-size-base:16px;
   --Font-size-medium:18px;
@@ -53,6 +53,9 @@ header {
   z-index: 1000;
 }
 
+body {
+  background-color: #f3f3f3;
+}
 
 .navbar ul {
   background-color: var(--white-color);
@@ -61,6 +64,7 @@ header {
   flex-direction: column;
   width: 200px;
 }
+
 
 .navbar ul li {
   margin: 10px;
@@ -412,10 +416,20 @@ align-self: flex-start;
 .tp-a article {
   display: flex;
   padding: 20px;
-  margin-top: 250px;
-  justify-content: center;
+  margin-top: 50px;
+  margin-right: 100px;
+  justify-content: flex-end;
   align-items: flex-start;
   gap: 32px;
+}
+
+.tph2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 260px;
+  font-size: 50px;
+  font-family: "Anek Odia";
+  letter-spacing: 8px;
 }
 
 .tp-a article > div {
@@ -424,9 +438,16 @@ align-self: flex-start;
 }
 
 .lumina-1 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: var(--font-weight-semi-bold);
   font-family: "Anek Odia";
   text-align: center;
   color: #2c2c2c;
+}
+
+.tp {
+  font-size: 32px;
+  font-weight: var(--font-size-base);
+  font-family: "Inter";
+  margin-top: 45px;
 }
