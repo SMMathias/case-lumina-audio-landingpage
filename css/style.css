@@ -496,7 +496,7 @@ align-self: flex-start;
   font-weight: var(--font-weight-semi-bold);
   font-size: 50px;
 }
-.speci {
+.speci-img {
   display: flex;
   justify-content: flex-end;
 }
