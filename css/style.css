@@ -291,6 +291,7 @@ footer {
  color: var(--black-color);
  letter-spacing: 1.5px;
  padding: 1rem;
+ background-color: var(--light-pink);
 }
 
 
