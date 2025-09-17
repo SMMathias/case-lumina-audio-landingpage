@@ -501,18 +501,35 @@ align-self: flex-start;
   font-weight: var(--font-weight-semi-bold);
   font-size: 50px;
 }
-.speci-img {
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 1000px;
-  padding-right: 25px;
-}
-.speci {
-  display: block;
-  transform: translateY(-106px);
-}
+
 .specifikationer {
-  background-color: var(--pink-color);
+  padding: 60px 0;
+  background-color: #ebbbb2;
+}
+
+.speci-a {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.speci-img {
+  margin: 0;
+  padding-right: 0;
+}
+
+.speci {
+  transform: none;
+}
+
+
+.speci-l {
+  font-size: 30px;
+  font-weight: var(--font-weight-normal);
+  font-family: "anek odia";
 }
 
 /* hero ting please ikke slet når i merger ;(*/
