@@ -6,7 +6,7 @@
 
 :root {
   /* Farver */
-  --pink-color:#B68B7E;
+  --pink-color:#EDC6BE;
   --white-color:#F3ECE3;
   --red-color:#7A1E2E;
 
@@ -273,7 +273,7 @@ footer {
 }
 
 
-.section > h1{
+.section > h2{
  margin-top: 200px;
   text-align: center;
  font-size: 2rem;
@@ -282,7 +282,7 @@ footer {
  color: #2c2c2c;
  letter-spacing: 1.5px;
  padding: 1rem;
- background-color: #B68B7E;
+ background-color: #EDC6BE;
 }
 
 
@@ -307,7 +307,7 @@ footer {
 /*Tekstboks*/
 .text-box{
  flex: 1;
- background-color: #B68B7E;
+ background-color: #EDC6BE;
  padding: 4rem;
  border-radius: 12px;
  max-width: 420px;
@@ -374,4 +374,16 @@ align-self: flex-start;
 
 .btn:hover{
  background-color: #5e1f1f;
+}
+
+
+/* hero ting */
+.hero img{
+  display: flex;
+  width: 1920px;
+  justify-self: center;
+}
+
+.h1{
+  position: fixed;
 }
