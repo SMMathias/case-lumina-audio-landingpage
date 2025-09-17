@@ -6,11 +6,12 @@
 
 :root {
   /* Farver */
-  --pink-color:#cd9388;
+  --pink-color:#ebbbb2;
   --white-color:#F3ECE3;
   --red-color:#7A1E2E;
   --black-color: #2c2c2c;
-  --light-pink:#dea399;
+  --pink-color:#ebbbb2;
+  --light-pink:#ebbbb2;
   --hover-red:#5e1f1f;
   
 
