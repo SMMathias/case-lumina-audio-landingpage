@@ -46,7 +46,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background:var(--pink-color);
+ background-color: #d5a59d;
+  background-color: ;
   box-shadow:0 2px 10px rgba(0, 0, 0, 0.1);
   padding:5px 7%;
   display:flex;
@@ -215,7 +216,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background:var(--pink-color);
+  background-color:#d5a59d;
   box-shadow:0 2px 10px rgba(0, 0, 0, 0.1);
   padding:15px 7%;
   display:flex;
@@ -288,7 +289,7 @@ footer {
  color: #2c2c2c;
  letter-spacing: 1.5px;
  padding: 1rem;
- background-color: #EDC6BE;
+ background-color: #e0bab4;
 }
 
 
@@ -313,8 +314,7 @@ footer {
 /*Tekstboks*/
 .text-box{
  flex: 1;
- background-color: #EDC6BE;
- padding: 4rem;
+ background-color: #e0bab4;
  border-radius: 12px;
  max-width: 420px;
  display: flex;
@@ -322,6 +322,7 @@ footer {
  justify-content: center;
  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
  margin: 4rem;
+ padding: 3rem;
 }
 
 .text-box h2{
