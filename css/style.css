@@ -10,7 +10,6 @@
   --white-color:#F3ECE3;
   --red-color:#7A1E2E;
   --black-color: #2c2c2c;
-  --pink-color:#ebbbb2;
   --light-pink:#ebbbb2;
   --hover-red:#5e1f1f;
   
@@ -285,7 +284,7 @@ footer {
 
 .section > h2{
  margin-top: 200px;
-  text-align: center;
+ text-align: center;
  font-size: 2rem;
  margin-bottom: 2.5rem;
  font-weight: 600;
@@ -293,6 +292,7 @@ footer {
  letter-spacing: 1.5px;
  padding: 1rem;
  background-color: var(--light-pink);
+ font-family: 'anek odia';
 }
 
 
@@ -328,15 +328,16 @@ footer {
 }
 
 .text-box h2{
- font-size: 1.3rem;
+ font-size: 1.5;
  font-weight: 600;
  margin-bottom: 1rem;
  color: var(--black-color);
+ font-family: 'anek odia';
 }
 
 
 .text-box p{
- font-size: 1rem;
+ font-size: 1.3rem;
  margin-bottom: 1.5rem;
  color: var(--black-color);
 }
