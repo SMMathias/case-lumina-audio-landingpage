@@ -498,7 +498,7 @@ align-self: flex-start;
   font-weight: var(--font-weight-semi-bold);
   font-size: 50px;
 }
-.speci {
+.speci-img {
   display: flex;
   justify-content: flex-end;
 }
@@ -506,3 +506,13 @@ align-self: flex-start;
   background-color: #2c2c2c;
 }
 
+/* hero ting */
+.hero img{
+  display: flex;
+  width: 1920px;
+  justify-self: center;
+}
+
+.h1{
+  position: fixed;
+}
