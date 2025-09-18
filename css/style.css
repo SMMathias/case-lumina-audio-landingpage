@@ -41,7 +41,6 @@
   --font-weight-bold:700;
 }
 
-
 /* start på header og footer */
 
 header {
@@ -396,7 +395,6 @@ border-radius: 8px;
 cursor: pointer;
 font-weight: 600;
 align-self: flex-start;
-font-size: 17px;
 }
 
 
@@ -558,9 +556,9 @@ font-size: 17px;
 
 .hero img{
   display: flex;
-  width: 1920px;
+  width: 100%;
   position: absolute;
-  top: -15%;
+  top: 10%;
   justify-self: start;
   object-fit: cover;
 }
@@ -572,7 +570,7 @@ font-size: 17px;
   left: 22%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 40px;
+  font-size: var(--font-size-xxl);
   font-family: var(--font-family);
 }
 
@@ -585,7 +583,7 @@ border-radius: 8px;
 cursor: pointer;
 font-weight: 600;
 align-self: flex-start;
-font-size: 25px;
+font-size: var(--Font-size-medium);
 }
 
 #herobtn:hover{
