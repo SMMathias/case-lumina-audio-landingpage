@@ -328,7 +328,6 @@ footer {
 }
 
 .text-box h2{
- font-size: 1.5;
  font-weight: 600;
  margin-bottom: 1rem;
  color: var(--black-color);
@@ -446,7 +445,7 @@ align-self: flex-start;
 
 .lumina-1 {
   font-size: 30px;
-  font-weight: var(--font-weight-semi-bold);
+  font-weight: 600;
   font-family: "Anek Odia";
   text-align: center;
   color: var(--black-color);
@@ -458,7 +457,7 @@ align-self: flex-start;
   flex-direction: column;
   justify-content: center;
   font-size: 32px;
-  font-weight: var(--font-size-base);
+  font-weight: 400;
   font-family: "Inter";
   margin-top: 45px;
   background-color: #FAF6F4;
@@ -480,7 +479,7 @@ align-self: flex-start;
   margin: 0;
   text-align: center;
   letter-spacing: 2px;
-  font-weight: var(--font-size-base);
+  font-weight: 400;
   font-family: "Anek Odia";
   font-size: 20px;
   line-height: 1.6;
