@@ -394,6 +394,7 @@ border-radius: 8px;
 cursor: pointer;
 font-weight: 600;
 align-self: flex-start;
+font-size: 17px;
 }
 
 
@@ -581,6 +582,7 @@ border-radius: 8px;
 cursor: pointer;
 font-weight: 600;
 align-self: flex-start;
+font-size: 25px;
 }
 
 #herobtn:hover{
