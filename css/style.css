@@ -341,6 +341,7 @@ footer {
  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
  margin: 4rem;
  padding: 3rem;
+ font-family: var(--font-family);
 }
 
 .text-box h2{
@@ -352,7 +353,8 @@ footer {
 
 
 .text-box p{
- font-size: 1.3rem;
+ font-size: 1.4rem;
+ font-family: var(--font-family);
  margin-bottom: 1.5rem;
  color: var(--black-color);
 }
@@ -516,11 +518,11 @@ font-size: 17px;
   padding: 8px;
   font-family: "anek odia";
   font-weight: var(--font-weight-semi-bold);
-  font-size: 50px;
+  font-size: 1.6rem;
 }
 
 .specifikationer {
-  padding: 60px 0;
+  padding: 40px 0;
   background-color: #ebbbb2;
 }
 
@@ -544,7 +546,8 @@ font-size: 17px;
 
 
 .speci-l {
-  font-size: 30px;
+  font-size: 1.3rem;
+  line-height: 3.4rem;
   font-weight: var(--font-weight-normal);
   font-family: "anek odia";
 }
