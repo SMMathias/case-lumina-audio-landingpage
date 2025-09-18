@@ -227,7 +227,7 @@ footer {
   font-family: var(--font-family);
   color: var(--black-color);
   font-weight: var(--Font-weight-medium);
-  font-size: var(--font-size-basel);
+  font-size: var(--font-size-base);
 }
 
 
@@ -517,6 +517,7 @@ align-self: flex-start;
   font-family: "anek odia";
   font-weight: var(--font-weight-semi-bold);
   font-size: 1.6rem;
+  margin-left: 40px;
 }
 
 .specifikationer {
