@@ -292,7 +292,7 @@ footer {
  letter-spacing: 1.5px;
  padding: 1rem;
  background-color: var(--light-pink);
- font-family: 'anek odia';
+ font-family: var(--font-family);
 }
 
 
@@ -331,7 +331,7 @@ footer {
  font-weight: 600;
  margin-bottom: 1rem;
  color: var(--black-color);
- font-family: 'anek odia';
+ font-family: var(--font-family);
 }
 
 
@@ -414,6 +414,7 @@ align-self: flex-start;
   font-size: 16px;
   font-weight: 600;
   color: var(--black-color);
+  font-family: var(--font-family);
 }
 
 
@@ -552,6 +553,7 @@ align-self: flex-start;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 40px;
+  font-family: var(--font-family);
 }
 
 #herobtn{
