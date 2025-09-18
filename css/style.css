@@ -422,7 +422,7 @@ align-self: flex-start;
 .tp-a article {
   display: flex;
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-right: 100px;
   justify-content: flex-end;
   align-items: flex-start;
@@ -432,7 +432,7 @@ align-self: flex-start;
 .tph2 {
   display: flex;
   justify-content: center;
-  margin-top: 260px;
+  margin-top: 1050px;
   font-size: 50px;
   font-family: "Anek Odia";
   letter-spacing: 8px;
@@ -533,6 +533,9 @@ align-self: flex-start;
 }
 
 /* hero ting please ikke slet når i merger ;(*/
+
+
+
 .hero img{
   display: flex;
   width: 1920px;
